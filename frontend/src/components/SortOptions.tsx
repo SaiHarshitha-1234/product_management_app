@@ -1,5 +1,4 @@
 import React from 'react';
-
 interface SortOptionsProps {
   sortOption: string;
   setSortOption: (option: string) => void;
