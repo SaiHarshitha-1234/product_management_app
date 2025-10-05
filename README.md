@@ -29,3 +29,16 @@ product_app/
 ├── ProductList.jsx # Component to display all products
 ├── ProductModal.jsx # Modal popup for add/edit product
 └── types/Product.jsx # Type definitions for products in frontend
+
+## How to run this project
+
+In one command prompt,
+Navigate to  project folder and then run these commands...
+cd backend
+npx nodemon dist/server.js 
+
+In another command prompt,
+Navigate to project folder and run...
+cd frontend
+npm install
+npm start
